@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+const mushie = require('../index');
+const cmd = process.argv[2];
+let maker = mushie.core()
+if (cmd === "import") {
+  maker.importSeed()
+} else if (cmd === "export") {
+  maker.exportSeed().then((seed) => {
+    console.log(seed)
+  }).catch((e) => { })
+} else if (cmd === "generate") {
+  maker.generateSeed().then((seed) => {
+    console.log(seed.seed)
+  }).catch((e) => { })
+}
