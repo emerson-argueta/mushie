@@ -1,7 +1,6 @@
 {
-  "name": "mushie",
+  "name": "@emerson-argueta/mushie",
   "version": "0.0.2",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,14 @@
   },
   "devDependencies": {
     "eccrypto": "^1.1.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emerson-argueta/mushie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emerson-argueta/mushie/issues"
+  },
+  "homepage": "https://github.com/emerson-argueta/mushie#readme",
+  "description": ""
 }
